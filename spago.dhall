@@ -12,8 +12,12 @@ to generate this file without the comments in this block.
 -}
 { name = "my-project"
 , dependencies =
-  [ "console"
+  [ "argonaut"
+  , "argonaut-core"
+  , "either"
+  , "console"
   , "effect"
+  , "foreign-object"
   , "node-buffer"
   , "node-fs"
   , "ordered-collections"
