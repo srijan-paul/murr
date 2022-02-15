@@ -1,0 +1,10 @@
+{
+  "name": "murr",
+  "version": "0.1.0",
+  "description": "A tool to detect vulnerable packages in your project",
+  "main": "dist/index.js",
+  "repository": "https://github.com/srijan-paul/murr",
+  "author": "Srijan Paul",
+  "license": "LoS",
+  "private": false
+}
