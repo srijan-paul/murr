@@ -22,6 +22,8 @@ to generate this file without the comments in this block.
   , "maybe"
   , "node-buffer"
   , "node-fs"
+  , "node-path"
+  , "node-process"
   , "ordered-collections"
   , "prelude"
   ]

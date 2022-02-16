@@ -36,7 +36,7 @@ justOrDefault d Nothing = d
 getVulnJSPkgs :: (FO.Object A.Json) -> (List String)
 getVulnJSPkgs pkgJson =
   let
-    getDeps name = justOrDefault Nil $ getKeys <$> FO.lookup name pkgJson
+    getDeps name = justOrDefault Nil (getKeys <$> FO.lookup name pkgJson)
     devDeps = getDeps "devDependencies" 
     deps = getDeps "dependencies" 
     isDepVuln depName = member depName JS.vulnPkgs
