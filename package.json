@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A tool to detect vulnerable packages in your project",
   "main": "index.js",
+  "types": "index.d.ts",
   "repository": "https://github.com/srijan-paul/murr",
   "author": "Srijan Paul",
   "license": "LoS",
@@ -13,7 +14,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "build": "spago install && spago build",
+    "build": "spago install && spago build && tsc --build",
     "prepublish": "spago install && spago build"
   }
 }
