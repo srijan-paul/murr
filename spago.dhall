@@ -13,9 +13,11 @@ to generate this file without the comments in this block.
 { name = "my-project"
 , dependencies =
   [ "argonaut"
+  , "arrays"
   , "console"
   , "effect"
   , "either"
+  , "exceptions"
   , "foldable-traversable"
   , "foreign-object"
   , "lists"

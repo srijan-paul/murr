@@ -13,6 +13,7 @@
   },
   "dependencies": {},
   "scripts": {
-    "build": "spago install && spago build"
+    "build": "spago install && spago build",
+    "prepublish": "spago install && spago build"
   }
 }
